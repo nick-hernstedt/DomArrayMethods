@@ -22,8 +22,7 @@ async function getRandomUser() {
     name: `${user.name.first} ${user.name.last}`,
     money: Math.floor(Math.random() * 1000000)
   };
-  console.log(data);
-  console.log(newUser);
+  addData(newUser);
 }
 
 // double everyones money
